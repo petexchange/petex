@@ -1,0 +1,9 @@
+extends: ['airbnb-typescript-prettier']
+env:
+  browser: true
+  jest: true
+  node: true
+rules: {
+  'import/prefer-default-export': 0,
+  'no-param-reassign': 0
+}
